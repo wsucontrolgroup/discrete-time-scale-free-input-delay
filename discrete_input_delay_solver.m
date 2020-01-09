@@ -19,7 +19,7 @@
 % 6. Kmax: The maximum time step to evaluate the solution at, i.e.,
 % you have the states for times k = 1, ..., Kmax.
 
-% From this information, input_delay_solver implements the protocol 
+% From this information, discrete_input_delay_solver implements the protocol 
 % described in the Discrete Time Scale-free Input Delay paper. 
 % Specifically, the discrete-time linear system is solved, 
 % and synchronization of the agents is achieved. If the 
