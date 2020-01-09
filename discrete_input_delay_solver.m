@@ -7,8 +7,8 @@
 % 4. The set of leader agents (leader_set). Type: array.
 % 5. The initial conditions (initial_conditions). Type: matrix.
 
-% Note on initial conditions: Define these as a 2*n*N + n by K_max + 1 
-% matrix for full-state, and 3*n*N + n by K_max + 1 for partial state. The 
+% Note on initial conditions: Define these as a 2*n*N + n by K_max
+% matrix for full-state, and 3*n*N + n by K_max for partial state. The 
 % kth column of your matrix represent the stacked state ([x;chi;x_r] for
 % full-state, [x;xhat;xhi;x_r] for partial state) evaluated at time k.
 % Currently, there is a placeholder initial conditions defined in the 
